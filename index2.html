@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <style type="text/css">
+		
+		body{
+			background-image:url(sky1.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+	</style>
+
+<div class="cards">
+<div class="card one">
+    <table>
+        <tr>
+            <td colspan="3">
+                <p id="city"></p>
+                <p id="date_time"></p>
+            </td>
+          </tr>
+        <tr>
+          <td>
+            <p id="image"></p>
+            <img id="imglink" alt="weather icon"></img>
+          </td>
+          <td colspan="2">
+            <p id="temp"></p>
+            <p id="min_temp"></p>
+            <p id="max_temp"></p>
+          </td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td>
+                <p id="pressure"></p>
+                <p id="humidity"></p>
+                <p id="visibility"></p>
+            </td>
+            <td>
+                <img id='image_wind'alt="wind icon" src="wind.png"></img>
+                <p id ="wind_speed"></p>
+        
+            </td>
+            <td>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+</div>
+<div class="card two">
+    <table>
+        <tr>
+            <td colspan="3">
+                <p id="city"></p>
+                <p id="date_time"></p>
+            </td>
+          </tr>
+        <tr>
+          <td>
+            <p id="image"></p>
+            <img id="imglink" alt="weather icon"></img>
+          </td>
+          <td colspan="2">
+            <p id="temp"></p>
+            <p id="min_temp"></p>
+            <p id="max_temp"></p>
+          </td>
+        </tr>
+
+        <tfoot>
+          <tr>
+              <td>
+                  <p id="pressure"></p>
+                  <p id="humidity"></p>
+                  <p id="visibility"></p>
+              </td>
+              <td>
+                <img id='image_wind'alt="wind icon" src="wind.png"></img>
+                  <p id ="wind_speed"></p>
+          
+              </td>
+              <td>
+                  <p id="sunrise"></p>
+                  <p id="sunset"></p>
+              </td>
+            </tr>
+          </tfoot>
+      </table>
+</div>
+<div class="card three">
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+<div class="card four">
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+<div class="card five">    
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+<div class="card six">
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+<div class="card seven">   
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+<div class="card eight">
+  <table>
+    <tr>
+        <td colspan="3">
+            <p id="city"></p>
+            <p id="date_time"></p>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <p id="image"></p>
+        <img id="imglink" alt="weather icon"></img>
+      </td>
+      <td colspan="2">
+        <p id="temp"></p>
+        <p id="min_temp"></p>
+        <p id="max_temp"></p>
+      </td>
+    </tr>
+
+    <tfoot>
+      <tr>
+          <td>
+              <p id="pressure"></p>
+              <p id="humidity"></p>
+              <p id="visibility"></p>
+          </td>
+          <td>
+            <img id='image_wind'alt="wind icon" src="wind.png"></img>
+              <p id ="wind_speed"></p>
+      
+          </td>
+          <td>
+              <p id="sunrise"></p>
+              <p id="sunset"></p>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+</div>
+</div>
+<script src="apptestv2.js"></script>
+</body>
+
